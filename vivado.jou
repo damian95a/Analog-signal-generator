@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun 13 19:09:26 2023
+# Process ID: 797084
+# Current directory: /home/stud2020/0gurdak/Desktop/project_JOS_fn
+# Command line: vivado ./project_frf.xpr
+# Log file: /home/stud2020/0gurdak/Desktop/project_JOS_fn/vivado.log
+# Journal file: /home/stud2020/0gurdak/Desktop/project_JOS_fn/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project ./project_frf.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_simulation
+open_wave_config /home/stud2020/0gurdak/Desktop/JOS/project_f/uart_sim_behav.wcfg
+source uart_sim.tcl
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+reset_simulation -simset sim_1 -mode behavioral
+close_project
+open_project /home/stud2020/0gurdak/Desktop/project_JOS_fn/project_frf.xpr
+update_compile_order -fileset sources_1
+close_project

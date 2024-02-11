@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stud2020/0lyszczarz/jos/proj/project_2/project_2.sim/sim_1/synth/timing/xsim/dac_sim_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_mem
+INFO: [VRFC 10-311] analyzing module SPI_master
+INFO: [VRFC 10-311] analyzing module generator
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl

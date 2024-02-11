@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../project_2.gen/sources_1/ip/axi_slave_uart_1/sim/axi_slave_uart.vhd" \
+
+nosort

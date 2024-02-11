@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 29 13:27:47 2023
+# Process ID: 10717
+# Current directory: /home/stud2020/0lyszczarz/jos/proj/project_2/project_2.runs/axi_slave_uart_synth_1
+# Command line: vivado -log axi_slave_uart.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_slave_uart.tcl
+# Log file: /home/stud2020/0lyszczarz/jos/proj/project_2/project_2.runs/axi_slave_uart_synth_1/axi_slave_uart.vds
+# Journal file: /home/stud2020/0lyszczarz/jos/proj/project_2/project_2.runs/axi_slave_uart_synth_1/vivado.jou
+#-----------------------------------------------------------
+source axi_slave_uart.tcl -notrace
